@@ -28,7 +28,7 @@
 						<div class="login-wrap p-4 p-md-5">
 			      	<div class="d-flex">
 			      		<div class="w-100">
-			      			<h3 class="mb-4">LOGIN</h3>
+			      			<h3 class="mb-4">Login</h3>
 			      		</div>
 			      	</div>
 							<form action="#" class="signin-form">
