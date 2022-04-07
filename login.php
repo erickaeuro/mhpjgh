@@ -2,53 +2,40 @@
 <html lang="en">
   <head>
   	<title>MERCED HERNANDEZ PAWNSHOP & JEWELLERY</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- CSS only -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <div class="bodybackground"> 
+       
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-9 mx-auto">
+        <div class="card flex-row my-5 border-0 shadow rounded-3 overflow-hidden">
+          <div class="card-img-left d-none d-md-flex">
+            <!-- Background image for card set in CSS! -->
+          </div>
+          <div class="card-body p-7 p-md-10">
+            <form>
+            <h5 class="card-title text-center mb-5 fw-light fs-5">LOGIN</h5>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	<link rel="stylesheet" href="css/style.css">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInputUsername" placeholder="uname" required autofocus>
+                <label for="floatingInputUsername">Username</label>
+              </div>
 
-	</head>
-	<style>
-	body { 
-		background: #f0e4d8;
-		overflow-y:hidden;
-	}
-	</style>
-	<body>
-	<section class="ftco-section">
-		<div class="container">
-			<div class="row justify-content-center">
-				
-			</div>
-			<div class="row justify-content-center">
-				<div class="col-md-12 col-lg-10">
-					<div class="wrap d-md-flex">
-						<div class="img" style="background-image: url(images/bg1.jpg);">
-			      </div>
-						<div class="login-wrap p-4 p-md-5">
-			      	<div class="d-flex">
-			      		<div class="w-100">
-			      			<h3 class="mb-4">Login</h3>
-			      		</div>
-			      	</div>
-							<form action="#" class="signin-form">
-			      		<div class="form-group mb-3">
-			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
-			      		</div>
-		            <div class="form-group mb-3">
-		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
-		            </div>
-		            <div class="form-group text-center">
-                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Login</button>
-		            </div>
-		            <div class="form-group d-md-flex">
-		            	<div class="w-50 text-left">
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+
+              <div class="d-grid">
+                <button type="submit">Login</button>
+              </div>
+
+              <div class="w-50 text-left">
 			            	<label class="checkbox-wrap checkbox-primary mb-0">Remember Me
 									  <input type="checkbox" checked>
 									  <span class="checkmark"></span>
@@ -57,21 +44,16 @@
 									<div class="w-50 text-md-right">
 										<a href="#">Forgot Password</a>
 									</div>
-		            </div>
-		          </form>
-		          <p class="text-center">Not a member? <a data-toggle="tab" href="registration.php">Sign Up</a></p>
-		        </div>
-		      </div>
-				</div>
-			</div>
-		</div>
-	</section>
 
-	<script src="js/jquery.min.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
+              <a class="d-block text-center mt-2 small" href="registration.php">Have an account? Register</a>
 
-	</body>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </body>
 </html>
-
