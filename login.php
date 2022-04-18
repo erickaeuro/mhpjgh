@@ -1,6 +1,7 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+    <meta charset="UTF-8">
   	<title>MERCED HERNANDEZ PAWNSHOP & JEWELLERY</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <!-- CSS only -->

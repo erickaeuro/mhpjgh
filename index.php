@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
@@ -19,7 +18,7 @@
     </div>
       <ul class="nav-links">
         <li>
-          <a href="#" class="active">
+          <a href="index.php" class="active">
             <i class='bx bx-grid-alt' ></i>
             <span class="links_name">Dashboard</span>
           </a>
@@ -49,7 +48,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="customermgmt.php">
               <i class='bx bxs-user-detail'></i>
               <span class="links_name">Customer</span>
           </a>
