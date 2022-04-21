@@ -36,25 +36,16 @@
             <form action="<?php $_SERVER['PHP_SELF']?>" method="POST" >
             <h5 class="card-title text-center mb-5 fw-light fs-5">MULTI-FACTOR AUTHENTICATION</h5>
 
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                <label class="form-check-label" for="flexRadioDefault1">
-                 Google Authenticator
-               </label>
+            <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Authentications
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Google Authenticator</a>
+            <a class="dropdown-item" href="#">Email</a>
+            <a class="dropdown-item" href="#">SMS</a>
+            <a class="dropdown-item" href="#">Security Question</a>
            </div>
-
-           <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                <label class="form-check-label" for="flexRadioDefault2">
-                 Email 
-                </label>
-           </div>
-
-           <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
-                <label class="form-check-label" for="flexRadioDefault3">
-                 SMS
-                </label>
            </div>
 
 
