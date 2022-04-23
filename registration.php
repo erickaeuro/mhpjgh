@@ -63,6 +63,24 @@
                 <label for="floatingConfirmPassword"> Confirm Password</label>
               </div>
 
+              <div class="form-floating mb-3">
+              <select class="form-select" aria-label="Default select example" id="select">   
+                      <option value="Select">Choose Security Question</option>
+                      <option value="What was the first thing you learned to cook?">What was the first thing you learned to cook?</option>  
+                      <option value="What is the name of the first school you attended?">What is the name of the first school you attended?</option>  
+                      <option value="What city or town was your first job in?">What city or town was your first job in?</option>  
+                      <option value="What is your maternal grandmother's maiden name?">What is your maternal grandmother's maiden name?</option>  
+                      <option value="What is the name of your first pet?">What is the name of your first pet?</option> 
+              </select>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control" name="cpass" id="floatingConfirmPassword" placeholder="Confirm Password" value="<?php echo $_POST['cpass'];?>">
+                <label for="floatingConfirmPassword"> Answer to that Question</label>
+              </div>
+
+
+
               <div class="d-grid">
                 <button type="submit" name= "sub">Register</button>
               </div>

@@ -52,7 +52,13 @@
         <li>
           <a href="customermgmt.php">
               <i class='bx bxs-user-detail'></i>
-              <span class="links_name">Customer</span>
+              <span class="links_name">Customers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+              <i class='bx bxs-user-detail'></i>
+              <span class="links_name">Employees</span>
           </a>
         </li>
         <li>
