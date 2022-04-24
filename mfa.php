@@ -60,6 +60,7 @@
            <div id="Email" class="data">
               <p><b>I choose Email as my Multi-Factor Authenticator</b></p>
            </div>
+           
         </div>
            </form>
           </div>
